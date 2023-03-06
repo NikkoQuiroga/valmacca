@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "name": "Cerámica A",
+      "description": "Esta es una descripción de Cerámica A.",
+      "price": 100,
+      "stock": 10,
+      "category": "categoria-1",
+      "image": "https://example.com/image-a.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cerámica B",
+      "description": "Esta es una descripción de Cerámica B.",
+      "price": 200,
+      "stock": 5,
+      "category": "categoria-2",
+      "image": "https://example.com/image-b.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cerámica C",
+      "description": "Esta es una descripción de Cerámica C.",
+      "price": 300,
+      "stock": 20,
+      "category": "categoria-1",
+      "image": "https://example.com/image-c.jpg"
+    }
+  ]  
