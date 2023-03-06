@@ -3,9 +3,9 @@ import Item from "./Item";
 import { Container } from "@chakra-ui/react";
 
 const ItemList = ({ ceramicas }) => {
-    return (
-        <>
-    <Container className="main-catalogue">
+  return (
+    <>
+      <Container className="main-catalogue">
         {ceramicas?.map((ceramica) => (
           <Item
             key={ceramica.id}
@@ -18,8 +18,9 @@ const ItemList = ({ ceramicas }) => {
             image={ceramica.image}
           />
         ))}
-      </Container>        </>
-    )
+      </Container>{" "}
+    </>
+  );
 };
 
 export default ItemList;

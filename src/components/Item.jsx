@@ -20,10 +20,9 @@ const Item = ({id, name, stock, category, image }) => {
         <Center p="1rem">
           <Card className="card-main">
             <CardBody>
-              <Image borderRadius="lg" src={image} />
+              <Image src={image} />
               <Stack mt="6" spacing="3">
                 <Heading size="md">{name}</Heading>
-
                 <Text color="blue.800" fontSize="l">
                   Category: {category}
                 </Text>
@@ -36,7 +35,7 @@ const Item = ({id, name, stock, category, image }) => {
             <CardFooter className="card-footer">
               <Center className="btn-center">
                 <Button variant="solid" colorScheme="blue">
-                  {/* <Link to={`/item/${id}`}>Details</Link> */}
+                  <Link to={`/item/${id}`}>Details</Link>
                 </Button>
               </Center>
             </CardFooter>
