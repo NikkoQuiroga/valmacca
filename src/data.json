@@ -1,0 +1,6 @@
+[{
+  "id": 1, "name": "Plato", "stock": 1, "category": "Platos", "image": "https://http2.mlstatic.com/D_NQ_NP_834190-MLA48820696368_012022-O.webp"},
+    {"id": 2, "name": "Taza", "stock": 2, "category": "Tazas", "image": "https://http2.mlstatic.com/D_NQ_NP_711107-MLA49913018200_052022-O.webp"},
+    {"id": 3, "name": "Taza Cafe", "stock": 1, "category": "Tazas", "image": "https://http2.mlstatic.com/D_NQ_NP_693431-MLA51800079170_102022-O.webp"},
+    {"id": 4, "name": "Bowl", "stock": 1, "category": "Bowls", "image": "https://http2.mlstatic.com/D_NQ_NP_851076-MLA52540111151_112022-O.jpg"}
+]
